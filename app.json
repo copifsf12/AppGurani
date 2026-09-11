@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "AppGuarani",
-    "slug": "AppGuarani",
+    "name": "Tukã Ñe'ẽ",
+    "slug": "tuka-nee",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "appguarani",
+    "icon": "./assets/images/icon.jpg",
+    "scheme": "tukanee",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/icon.jpg"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#2E7D32",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -20,22 +20,21 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single",
+      "favicon": "./assets/images/favicon.jpg"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#2E7D32",
+          "image": "./assets/images/splash-icon.jpg",
+          "imageWidth": 120
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
-      "typedRoutes": true,
       "reactCompiler": true
     }
   }
